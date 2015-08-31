@@ -58,9 +58,14 @@ module Methods2
 
 	# TODO - write ticket
 	def ticket?(a, b, c)
-		if (ticket + ticket == 10) then
-			return 10
+		if (a + b == 10 || a + c == 10 || b + c == 10)
+			 10# dont need then or return, || = or
+		elsif a + b - 10 == b + c || a + b - 10 == a + c
+			5
+		else
+			0
 		end
+
 	end
 	# TODO - write in_order?
 

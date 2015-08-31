@@ -47,7 +47,7 @@ class Methods2Test < MiniTest::Test
 		assert_equal 10, @m.ticket?(3, 5, 5)
 		
 		assert_equal 5, @m.ticket?(13, 5, 3)
-		assert_equal 5, @m.ticket?(4, 10, 0)
+		assert_equal 5, @m.ticket?(4, 11, 1)
 
 		assert_equal 0, @m.ticket?(4, 1, 1)
 	end
