@@ -54,6 +54,7 @@ module Methods2
 		return false
 
 	end
+<<<<<<< HEAD
 
 
 	# TODO - write ticket
@@ -65,6 +66,20 @@ module Methods2
 		else
 			0
 		end
+=======
+
+
+	# TODO - write ticket
+	def ticket?(a, b, c)
+		if (a + b == 10 || a + c == 10 || b + c == 10)
+			 10# dont need then or return, || = or
+		elsif a + b - 10 == b + c || a + b - 10 == a + c
+			5
+		else
+			0
+		end
+
+>>>>>>> c366d80c29270c821d08a722923d33d9aba5a645
 	end
 	# TODO - write in_order?
 	def in_order?(a, b, c, b0k)

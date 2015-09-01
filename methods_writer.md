@@ -9,8 +9,23 @@ party with different/same amounts of candy
 		either ice cream or candy is at least double the amount of the other.
 	party is bad:
 		in all cases if either ice cream or candy is < 5 
+<<<<<<< HEAD
 --------------------------------------------------------
 	party is successful when the # of nuts is >=40 and <=60
 	if it is the weekend the # of nuts must be >=40
 ---------------------------------------------------------
 	
+=======
+----------------------------------------------------------
+	party is successful when the # of nuts is >=40 and <=60
+	if it is the weekend the # of nuts must be >=40
+----------------------------------------------------------
+lot ticket with ints a, b, c
+	called ab, be, ac
+sum in each pair
+	if any pair sum is exactly 10 then return 10
+	other wise ab sum is == 10
+		more than either bc or ac sum
+			the result is 5
+	other wise the result is 0
+>>>>>>> c366d80c29270c821d08a722923d33d9aba5a645
