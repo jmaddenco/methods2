@@ -39,7 +39,7 @@ class Methods2Test < MiniTest::Test
 		assert_equal true, @m.successful_squirrel_party?(40,false)
 		assert_equal true, @m.successful_squirrel_party?(60,false)
 		assert_equal true, @m.successful_squirrel_party?(65,true)
-<<<<<<< HEAD
+#<<<<<<< HEAD
 	end
 
 	def test_ticket?
@@ -61,7 +61,7 @@ class Methods2Test < MiniTest::Test
 		assert_equal false, @m.in_order?(6, 8, 2, true)
 		assert_equal false, @m.in_order?(7, 5, 1, false)
 	end
-=======
+#=======
 	end
 
 	def test_ticket?
@@ -75,5 +75,8 @@ class Methods2Test < MiniTest::Test
 		assert_equal 0, @m.ticket?(4, 1, 1)
 	end
 
->>>>>>> c366d80c29270c821d08a722923d33d9aba5a645
+#>>>>>>> c366d80c29270c821d08a722923d33d9aba5a645
+	# def less_by_ten
+		
+	# end
 end

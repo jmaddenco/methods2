@@ -54,7 +54,7 @@ module Methods2
 		return false
 
 	end
-<<<<<<< HEAD
+<<<<<< HEAD
 
 
 	# TODO - write ticket
@@ -66,7 +66,7 @@ module Methods2
 		else
 			0
 		end
-=======
+======
 
 
 	# TODO - write ticket
@@ -79,7 +79,7 @@ module Methods2
 			0
 		end
 
->>>>>>> c366d80c29270c821d08a722923d33d9aba5a645
+>>>>>> c366d80c29270c821d08a722923d33d9aba5a645
 	end
 	# TODO - write in_order?
 	def in_order?(a, b, c, b0k)
@@ -94,13 +94,24 @@ module Methods2
 
 
 	# TODO - write less_by_ten?
+	def less_by_ten?
+		
+	end
 	
-	# TODO - write fizz_string
-
-	# TODO - write first_last_six?
-
-	# TODO - write rotate_left
-
-	# TODO - write double23?
-
+	# # TODO - write fizz_string
+	# def fizz_string
+		
+	# end
+	# # TODO - write first_last_six?
+	# def first_last_six?
+		
+	# end
+	# # TODO - write rotate_left
+	# def rotate_left
+		
+	# end
+	# # TODO - write double23?
+	# def double23
+		
+	# end
 end
